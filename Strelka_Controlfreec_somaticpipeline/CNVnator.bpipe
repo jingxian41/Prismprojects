@@ -1,0 +1,5 @@
+CNVnator = {
+	exec "sh /home/jingxian/Strelka_Controlfreec_somaticpipeline/CNVnator.sh $input1"
+}
+
+Bpipe.run{CNVnator}
